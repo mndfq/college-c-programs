@@ -1,6 +1,6 @@
 //mndfq
 #include <stdio.h>
-// Use thie header on older compilers ---> #incldue <conio.h>
+
 int main(){
 	int i,ii,temp,number[9];
 	
@@ -23,8 +23,5 @@ int main(){
 		printf("\t -%d-",number[i]);
 	}
 	
-	getchar();
-	
 	return 0;
-
 }
