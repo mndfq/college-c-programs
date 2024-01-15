@@ -1,6 +1,6 @@
 //mndfq
 #include <stdio.h>
-// Use thie header on older compilers ---> #incldue <conio.h>
+
 int main(){
     int side,result;
     
@@ -10,8 +10,6 @@ int main(){
     result = side * side ; 
 
     printf("A = %d",result);
-
-    getchar();
 
     return 0;
 }
